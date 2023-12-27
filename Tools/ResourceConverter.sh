@@ -85,7 +85,7 @@ function genKext() {
 <plist version="1.0">
 <dict>
   <key>CFBundleIdentifier</key>
-  <string>org.acidanthera.driver.CPUFriendDataProvider</string>
+  <string>org.devicemanager.driver.CPUFriendDataProvider</string>
   <key>CFBundleInfoDictionaryVersion</key>
   <string>6.0</string>
   <key>CFBundleName</key>

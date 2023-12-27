@@ -196,7 +196,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1330;
-				ORGANIZATIONNAME = Acidanthera;
+				ORGANIZATIONNAME = devicemanager;
 				TargetAttributes = {
 					1C748C261C21952C0024EED2 = {
 						CreatedOnToolsVersion = 7.2;
@@ -370,7 +370,7 @@
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = org.acidanthera.driver.CPUFriend;
+				MODULE_NAME = org.devicemanager.driver.CPUFriend;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
 				MODULE_VERSION = 1.2.8;
@@ -390,7 +390,7 @@
 					"-Wno-vla",
 				);
 				OTHER_LDFLAGS = "-static";
-				PRODUCT_BUNDLE_IDENTIFIER = org.acidanthera.driver.CPUFriend;
+				PRODUCT_BUNDLE_IDENTIFIER = org.devicemanager.driver.CPUFriend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -420,7 +420,7 @@
 				);
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = org.acidanthera.driver.CPUFriend;
+				MODULE_NAME = org.devicemanager.driver.CPUFriend;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
 				MODULE_VERSION = 1.2.8;
@@ -440,7 +440,7 @@
 					"-Wno-vla",
 				);
 				OTHER_LDFLAGS = "-static";
-				PRODUCT_BUNDLE_IDENTIFIER = org.acidanthera.driver.CPUFriend;
+				PRODUCT_BUNDLE_IDENTIFIER = org.devicemanager.driver.CPUFriend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_STYLE = "non-global";
 				WRAPPER_EXTENSION = kext;

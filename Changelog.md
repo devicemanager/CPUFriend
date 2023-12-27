@@ -9,7 +9,7 @@ CPUFriend Changelog
 #### v1.2.5
 - Added support from macOS 10.6
 - Improved FrequencyVectors analyzer by @usr-sse2
-- Changed project ownership to Acidanthera
+- Changed project ownership to devicemanager
 
 #### v1.2.4
 - Added constants for macOS 12 support
@@ -28,7 +28,7 @@ CPUFriend Changelog
 
 #### v1.1.9
 - Unified release archive names
-- Added support for prevention of AppleIntelMCEReporter, details can be found [here](https://github.com/acidanthera/bugtracker/issues/424#issuecomment-512596034)
+- Added support for prevention of AppleIntelMCEReporter, details can be found [here](https://github.com/devicemanager/bugtracker/issues/424#issuecomment-512596034)
 
 #### v1.1.8
 - Allow loading on 10.15 without `-lilubetaall`
